@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Ticaret</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <h1>E-Ticaret</h1>
+        <input type="text" placeholder="ürün ismi giriniz" />
+        <div>
+            <button id="open-btn">Sepet</button>
+            <button>KayıtOl</button>
+            <button class="loginBtn">GirişYap</button>
+        </div>
+    </header>
+    <main>
+        <!-- Kategoriler -->
+        <div class="category-wrapper">
+            <h1>Kategoriler</h1>
+            <div class="categories"></div>
+        </div>
+        <!-- Ürünler -->
+        <div class="product-wrapper">
+            <h1>Ürünler</h1>
+            <div class="products"></div>
+        </div>
+        <button class="btn">Daha Fazla Yükle</button>
+
+        <div class="modal-wrapper">
+            <div class="modal">
+                <img id="close-btn" src="./images/closeicon.png" />
+                <div class="modal-list"></div>
+
+                <div class="total">
+                    Toplam:
+                    <span id="modal-info"> 0 </span>
+                    $
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <!-- giriş ekranı -->
+    <div class="login ">
+        <h1>Giriş Yap</h1>
+        <i class="fa-regular fa-circle-xmark close-login" style="color: #d7d242;"></i>
+        <label for="email-input" ></label>
+        <input type="text" placeholder="E-mail Adresiniz" class="email-input">
+        <label for="password-input"></label>
+        <input type="password" placeholder="Parola" class="password-input">
+        <button class="submit">Giriş Yap</button>
+        <span>Sosyal Medya ile Giriş  </span>
+        <div class="social-media">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
