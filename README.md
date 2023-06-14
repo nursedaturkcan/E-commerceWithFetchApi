@@ -7,6 +7,6 @@ The project also includes a "Load More" button to expand the product list with m
 
 This project utilizes HTML, CSS, and JavaScript. Additionally, the fetch() function is used to retrieve data from an API. <br/>
 
-preview: 
+Preview: <br/>
 https://github.com/nursedaturkcan/E-commerceWithFetchApi/assets/129687664/8c1b5b8b-c523-4211-81b6-b776aec4551d
 
